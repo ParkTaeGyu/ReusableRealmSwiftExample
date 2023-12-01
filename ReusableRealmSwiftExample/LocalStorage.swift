@@ -87,8 +87,12 @@ class LocalStorage {
     func deleteObject<T: Object>(_ object: T) throws {
         guard let realm = realm else { throw LocalStorageEror.realmObjectNil }
 
+        let targetObject = readObject(object)
+
+        guard let targetObject else { throw LocalStorageEror.entityObjectNil }
+        
         try realm.write {
-            realm.delete(object)
+            realm.delete(targetObject)
         }
     }
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B41F44B42B18150F0082BC8E /* TestEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B41F44B32B18150F0082BC8E /* TestEntity.swift */; };
 		B47A768E2B10649000F96E81 /* ReusableRealmSwiftExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47A768D2B10649000F96E81 /* ReusableRealmSwiftExampleApp.swift */; };
 		B47A76902B10649000F96E81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47A768F2B10649000F96E81 /* ContentView.swift */; };
 		B47A76922B10649100F96E81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B47A76912B10649100F96E81 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B41F44B32B18150F0082BC8E /* TestEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestEntity.swift; sourceTree = "<group>"; };
 		B47A768A2B10649000F96E81 /* ReusableRealmSwiftExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReusableRealmSwiftExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B47A768D2B10649000F96E81 /* ReusableRealmSwiftExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReusableRealmSwiftExampleApp.swift; sourceTree = "<group>"; };
 		B47A768F2B10649000F96E81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 				B47A76912B10649100F96E81 /* Assets.xcassets */,
 				B47A76932B10649100F96E81 /* Preview Content */,
 				B47A76B82B10652400F96E81 /* LocalStorage.swift */,
+				B41F44B32B18150F0082BC8E /* TestEntity.swift */,
 			);
 			path = ReusableRealmSwiftExample;
 			sourceTree = "<group>";
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B41F44B42B18150F0082BC8E /* TestEntity.swift in Sources */,
 				B47A76B92B10652400F96E81 /* LocalStorage.swift in Sources */,
 				B47A76902B10649000F96E81 /* ContentView.swift in Sources */,
 				B47A768E2B10649000F96E81 /* ReusableRealmSwiftExampleApp.swift in Sources */,
